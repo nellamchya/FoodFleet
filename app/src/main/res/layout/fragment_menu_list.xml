@@ -49,8 +49,8 @@
 
             <ImageView
                 android:id="@+id/imageViewChart"
-                android:layout_width="45dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginStart="8dp"
                 android:contentDescription="@string/icon_shopping_cart"
                 android:src="@drawable/baseline_shopping_cart_24"
@@ -59,8 +59,8 @@
 
             <ImageView
                 android:id="@+id/imageViewProfile"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginStart="8dp"
                 android:contentDescription="@string/icon_profile"
                 android:src="@drawable/ic_profile"
@@ -114,10 +114,9 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- RecyclerView Category -->
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerViewCategory"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -138,7 +137,7 @@
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerViewMenu"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
