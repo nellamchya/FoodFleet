@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FoodFleet App</string>
+    <string name="category_name">Nama Kategori</string>
+    <string name="menu_name">Nama Menu</string>
+    <string name="menu_price">Harga Menu</string>
+    <string name="menu_rate">4.9</string>
+    <string name="menu_list">Menu Makanan</string>
+    <string name="hello_tag">Hai Nellam, </string>
+    <string name="tagline">Mau makan apa hari ini?</string>
+    <string name="icon_profile">Icon Profile</string>
+    <string name="icon_shopping_cart">Icon Shopping Cart</string>
+    <string name="nama_menu">Nama Menu</string>
+    <string name="deskripsi_menu">Varian dari pangsit tradisional China yang disajikan dengan cara dikukus dan digoreng.</string>
+    <string name="location_complete">Jl. BSD Green Office Park Jl. BSD Grand Boulevard, Sampora, BSD, Kabupaten Tangerang, Banten 15345</string>
+    <string name="chartadd">Tambah ke Keranjang -</string>
+
+</resources>

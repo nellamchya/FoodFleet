@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_host_fragment"
+    app:startDestination="@id/menuListFragment">
+
+    <fragment
+        android:id="@+id/menuListFragment"
+        android:name="com.shine.foodfleet.presentation.menulist.MenuListFragment"
+        android:label="fragment_planet_list"
+        tools:layout="@layout/fragment_menu_list">
+        <action
+            android:id="@+id/action_menuListFragment_to_menuDetailFragment"
+            app:destination="@id/menuDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuDetailFragment"
+        android:name="com.shine.foodfleet.presentation.detailmenu.DetailMenuFragment"
+        android:label="fragment_planet_detail"
+        tools:layout="@layout/fragment_detail_menu">
+        <argument
+            android:name="menuList"
+            android:defaultValue="@null"
+            app:argType="com.shine.foodfleet.presentation.model.MenuItem"
+            app:nullable="true" />
+    </fragment>
+</navigation>
