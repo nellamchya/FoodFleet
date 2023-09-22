@@ -179,13 +179,13 @@
                 android:id="@+id/chartColumn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
                 android:src="@drawable/chart_kolom"
-                android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintHorizontal_bias="0.554"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/lineDetail2" />
+                app:layout_constraintTop_toBottomOf="@id/iv_Minus" />
 
             <TextView
                 android:id="@+id/chartText"
@@ -201,6 +201,7 @@
                 app:layout_constraintHorizontal_bias="0.473"
                 app:layout_constraintStart_toStartOf="@+id/lineDetail2"
                 app:layout_constraintTop_toBottomOf="@id/lineDetail2" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.core.widget.NestedScrollView>
