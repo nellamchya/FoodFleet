@@ -60,7 +60,6 @@ class DetailMenuFragment : Fragment() {
                 startActivity(browserMapIntent)
             }
         }
-
     }
 }
 
